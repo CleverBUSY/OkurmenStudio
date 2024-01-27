@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Agbalumo&family=Montserrat:wght@500&family=Roboto+Slab:wght@500&family=Source+Code+Pro:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0px 20px 0px 20px ;
+  position: relative;
+}
+
+body {
+  background: #fff;
+  font-family: "Montserrat" sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  font-family: "Istok Web" sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.df {
+  display: flex;
+}
+
+.text-center {
+  text-align: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+:root {
+  --hue: 223;
+  --bg: hsl(var(--hue), 10%, 100%);
+  --fg: hsl(var(--hue), 10%, 0%);
+  --primary: hsl(var(--hue), 90%, 55%);
+  --primaryT: hsla(var(--hue), 90%, 55%, 0);
+  --transDur: 0.3s;
+  font-size: calc(16px + (32 - 16) * (100vw - 320px) / (1280 - 320));
+}
+
+
